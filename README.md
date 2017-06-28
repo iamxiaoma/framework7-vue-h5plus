@@ -6,17 +6,6 @@ iOS and Android Apps with Framework7 Vue &amp; H5Plus - develop, build and deplo
 * framework7 `^1.6.3`
 * framework7-vue `^0.8.5`
 
-To build and run apps, you need to install SDKs for each platform you wish to target.  
-To check if you satisfy requirements for building the platform:
-
-``` bash
-$ cordova requirements
-
-Requirements check results for ios:
-Apple OS X: installed darwin
-
-```
-
 ## Dependencies
 
 F7VueH5Plus use `npm` to manage third-party packages now.
