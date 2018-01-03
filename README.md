@@ -3,7 +3,7 @@ iOS and Android Apps with Framework7 Vue &amp; H5Plus - develop, build and deplo
 
 ## Requirements
 
-* framework7 `^1.6.3`
+* framework7 `^1.6.5`
 * framework7-vue `^0.8.5`
 
 ## Dependencies
