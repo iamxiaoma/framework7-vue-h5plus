@@ -29,7 +29,7 @@ import App from './app'
 
 // Import Vuex store
 import store from './store'
-import {getLoginUser} from './store/actions'
+//import {getLoginUser} from './store/actions'
 
 // Init network framework
 import './network'
@@ -45,9 +45,9 @@ import zhCN from './lang/zh_cn'
 
 let cache = new StoreCache('vuex')
 Vue.use(VueI18n)
-Vue.config.lang = cache.get('lang') || 'zh'
+Vue.config.lang = cache.get('lang') || 'zh-CN'
 Vue.locale('en', enUS)
-Vue.locale('zh', zhCN)
+Vue.locale('zh-CN', zhCN)
 
 // Init App
 new Vue({
@@ -70,4 +70,4 @@ new Vue({
   }
 })
 
-getLoginUser(store)
+//getLoginUser(store)
